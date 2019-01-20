@@ -1,27 +1,30 @@
 {
-  "name": "softgames",
-  "version": "1.0.0",
-  "description": "interview task",
-  "main": "index.js",
+  "name": "slot_engine",
+  "version": "0.1.0",
+  "description": "",
+  "main": "gulp",
   "scripts": {
-    "start": "budo index.js --  -t babelify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "gulp watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "artemf",
+  "license": "",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "stringify": "^5.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
   "dependencies": {
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babelify": "^7.3.0",
-    "budo": "^10.0.4",
-    "pixi.js": "^4.8.5"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "plugins": [
-      "transform-es2015-modules-commonjs"
-    ]
+    "imagemagick": "^0.1.3",
+    "pixi.js": "^4.8.5",
+    "xstate": "^4.2.3"
   }
 }

@@ -2,7 +2,7 @@ export default new class AssetLoader {
 
     constructor() {
         this.loader = PIXI.loader;
-        this.url = "assets/";
+        this.url = "./assets/";
     }
 
     load(manifest, onComplete) {
