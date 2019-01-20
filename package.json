@@ -1,0 +1,27 @@
+{
+  "name": "softgames",
+  "version": "1.0.0",
+  "description": "interview task",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --  -t babelify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "budo": "^10.0.4",
+    "pixi.js": "^4.8.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  }
+}
